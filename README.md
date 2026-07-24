@@ -98,6 +98,28 @@ Example request:
 
 ---
 
+## Design Decisions
+
+### 1. Flask for the Backend
+
+I chose Flask because it is lightweight, easy to develop REST APIs with, and well-suited for small web applications like Page Pulse.
+
+### 2. BeautifulSoup for HTML Parsing
+
+I used BeautifulSoup because it provides a simple and reliable way to parse HTML and extract information such as the page title, meta description, headings, and image attributes.
+
+### 3. Graceful Error Handling
+
+I designed the application to return meaningful JSON error messages instead of crashing when users provide invalid URLs, when a website times out, or when the content is not HTML. This improves reliability and user experience.
+
+---
+
+## AI Usage
+
+I used AI tools to understand concepts, troubleshoot deployment issues, and review my implementation. After using AI suggestions, I implemented, tested, debugged, and deployed the application myself. I also verified the outputs, added unit tests, improved error handling, and ensured the final application met the assignment requirements.
+
+---
+
 ## 👩‍💻 Author
 
 Harshitha M
