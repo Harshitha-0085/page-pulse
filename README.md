@@ -95,7 +95,32 @@ Example request:
   "url": "https://example.com"
 }
 ```
+## Error Handling
 
+The API returns meaningful JSON error messages for:
+
+- Invalid URLs
+- Connection failures
+- Request timeouts
+- Non-HTML responses
+- HTTP errors (404, 403, etc.)
+
+This ensures the application handles failures gracefully without crashing.
+---
+
+## 🌐 Live Demo
+
+**Frontend (Vercel):**
+
+https://page-pulse-kappa-two.vercel.app/
+
+**Backend (Render):**
+
+https://page-pulse-3x08.onrender.com
+
+**GitHub Repository:**
+
+https://github.com/Harshitha-0085/page-pulse
 ---
 
 ## Design Decisions
