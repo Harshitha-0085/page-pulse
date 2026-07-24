@@ -15,7 +15,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/analyze", {
+      const response = await fetch("https://page-pulse-3x08.onrender.com/analyze", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -55,7 +55,7 @@ function App() {
       {result && (
   <div className="report">
     {result.error ? (
-      <p className="error"></p>
+      <p className="error">{result.error}</p>
     ) : (
       <>
         <h2>Analysis Report</h2>
